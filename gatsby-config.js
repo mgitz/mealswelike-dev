@@ -37,14 +37,6 @@ module.exports = {
         name: "images",
       },
     },
-    {
-      resolve: 'gatsby-source-graphql',
-      options: {
-        typeName: 'WPGraphQL',
-        fieldName: 'wpgraphql',
-        url: 'https://mealswelike.com/graphql',
-      }
-    }
     `gatsby-plugin-image`,
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
